@@ -327,8 +327,17 @@ button {
     right: 17px;
   }
 
+  /* .container-calculadora-dpad-buttons {
+    width: 100%;
+    height: 57%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: end;
+  } */
+
   .calculadora-operacoes-buttons {
-    max-width: 120px;
+    max-width: 115px;
     /* max-width: 102px; */
   }
 
