@@ -327,14 +327,16 @@ button {
     right: 17px;
   }
 
-  /* .container-calculadora-dpad-buttons {
+  .container-calculadora-dpad-buttons {
     width: 100%;
     height: 57%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     align-self: end;
-  } */
+    /* Abaixo */
+    width: 68%;
+  }
 
   .calculadora-operacoes-buttons {
     max-width: 112px;
@@ -364,12 +366,14 @@ button {
   }
 
   .calculadora-numeros {
-    justify-content: end;
     max-width: 111px;
     margin-right: 12px;
     margin-bottom: 2px;
     padding-left: 0px;
     gap: 10px 5px;
+    /* Abaixo */
+    position: absolute;
+    right: -19px;
   }
 
   .btn-numeros {
