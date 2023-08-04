@@ -328,7 +328,8 @@ button {
   }
 
   .calculadora-operacoes-buttons {
-    max-width: 102px;
+    max-width: 110px;
+    /* max-width: 102px; */
   }
 
   .btn-zerar {
