@@ -368,7 +368,4 @@ button {
   .btn-numeros.azul {
     background: url("img/botao-azul-mobile.svg") center no-repeat;
   }
-  body{
-    display: none;
-  }
 }
