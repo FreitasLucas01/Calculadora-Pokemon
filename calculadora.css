@@ -358,6 +358,8 @@ button {
     margin-bottom: 2px;
     /* padding-left: 17px; */
     gap: 10px 5px;
+
+    justify-content: end;
   }
 
   .btn-numeros {
