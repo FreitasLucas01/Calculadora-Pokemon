@@ -310,11 +310,15 @@ button {
   .btn-soma {
     top: 27px;
     left: 36px;
+    /* Abaixo */
+    left: 31px;
   }
 
   .btn-subtracao {
     bottom: 30px;
     left: 38px;
+    /* Abaixo */
+    left: 33px;
   }
 
   .btn-multiplicacao {
