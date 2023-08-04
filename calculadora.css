@@ -338,7 +338,6 @@ button {
 
   .calculadora-operacoes-buttons {
     max-width: 112px;
-    /* max-width: 102px; */
   }
 
   .btn-zerar {
@@ -366,7 +365,8 @@ button {
 
   .calculadora-numeros {
     justify-content: end;
-    max-width: 111px;
+    max-width: 100px;
+    /* max-width: 111px; */
     margin-right: 12px;
     margin-bottom: 2px;
     padding-left: 0px;
