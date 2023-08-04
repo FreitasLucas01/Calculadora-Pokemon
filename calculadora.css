@@ -356,7 +356,7 @@ button {
     max-width: 111px;
     margin-right: 12px;
     margin-bottom: 2px;
-    padding-left: 17px;
+    /* padding-left: 17px; */
     gap: 10px 5px;
   }
 
