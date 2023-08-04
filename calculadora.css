@@ -172,11 +172,14 @@ button {
 }
 
 .btn-numeros {
-  /* position: initial; */
+  position: initial;
   width: 80px;
   height: 80px;
   border-radius: 50%;
   background: url("img/botao-rosa.svg") center no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .btn-numeros.azul {
   background: url("img/botao-azul.svg") center no-repeat;
