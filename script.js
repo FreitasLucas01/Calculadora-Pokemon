@@ -4,7 +4,7 @@ const pokemonImg = document.querySelector(".pokemon-img");
 const pokemonNumero = document.querySelector(".pokemon-numero");
 
 const capturarCliques = () => {
-  document.addEventListener("click", (e) => {
+  document.addEventListener("touchstart", (e) => {
     const el = e.target;
     el.classList.contains("btn-display") ? addNumDisplay(el) : false;
     el.classList.contains("btn-zerar") ? clear() : false;
