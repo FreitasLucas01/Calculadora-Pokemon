@@ -1,54 +1,71 @@
-function Calculadora() {
-  
-  this.display = document.querySelector(".display");
+const display = document.querySelector(".display");
+const pokemon = document.querySelector(".pokemon-resultado");
+const pokemonImg = document.querySelector(".pokemon-img");
+const pokemonNumero = document.querySelector(".pokemon-numero");
 
-  this.capturarCliques = () => {
-    document.addEventListener("click", (e) => {
-      const el = e.target;
-      el.classList.contains("btn-display") ? this.addNumDisplay(el) : false;
-      el.classList.contains("btn-zerar") ? this.clear() : false;
-      el.classList.contains("btn-apagar") ? this.del() : false;
-      el.classList.contains("btn-resultado") ? this.realizaConta() : false;
-    });
-  };
+const capturarCliques = () => {
+  document.addEventListener("click", (e) => {
+    const el = e.target;
+    el.classList.contains("btn-display") ? addNumDisplay(el) : false;
+    el.classList.contains("btn-zerar") ? clear() : false;
+    el.classList.contains("btn-apagar") ? del() : false;
+    el.classList.contains("btn-resultado") ? realizaConta() : false;
+  });
+};
 
-  this.clear = () => (this.display.value = "");
-  this.del = () => (this.display.value = this.display.value.slice(0, -1));
+async function pokemonNome(conta) {
+  if (Number.isInteger(conta)) {
+    const pokeFetch = await fetch(
+      `https://pokeapi.co/api/v2/pokemon/${conta}/`
+    );
+    const pokeAPI = await pokeFetch.json();
+    const pokemonName = pokeAPI.forms[0].name;
 
-  this.addNumDisplay = (el) => {
-    this.display.value += el.innerText;
-    this.display.focus();
-  };
+    const capitalize = (s) =>
+      typeof s !== "string" ? "" : s.charAt(0).toUpperCase() + s.slice(1);
 
-  this.realizaConta = () => {
-    try {
-      const conta = eval(this.display.value);
-
-      if (!conta) {
-        alert("Conta inválida");
-        return;
-      } else {
-        this.display.value = conta;
-      }
-    } catch {
-      alert("Conta inválida");
-      return;
-    }
-  };
-
-  this.capturarEnter = () => {
-    document.addEventListener("click", (e) => {
-      if (e.key === "Enter") {
-        this.realizaConta();
-      }
-    });
-  };
-
-  this.init = () => {
-    this.capturarCliques();
-    this.capturarEnter();
-  };
+    pokemon.classList.add("ativo");
+    pokemonImg.src = pokeAPI.sprites.front_default;
+    pokemonNumero.innerText = `Nº ${conta} - ${capitalize(pokemonName)}`;
+  } else {
+    return false;
+  }
 }
 
-const calculadora = new Calculadora();
-calculadora.init();
+const removeAtivo = () => {
+  pokemon.classList.remove("ativo");
+};
+
+const clear = () => {
+  display.value = "";
+  removeAtivo();
+};
+
+const del = () => {
+  display.value = display.value.slice(0, -1);
+  removeAtivo();
+};
+
+const addNumDisplay = (el) => {
+  display.value += el.innerText;
+  display.focus();
+};
+
+const realizaConta = () => {
+  try {
+    const conta = eval(display.value);
+
+    if (!conta) {
+      alert("Conta inválida");
+      return;
+    } else {
+      display.value = conta;
+      pokemonNome(conta);
+    }
+  } catch {
+    alert("Conta inválida");
+    return;
+  }
+};
+
+capturarCliques();

@@ -14,26 +14,51 @@
     <title>Pokémon</title>
   </head>
   <body>
-    <section class="container">
-      <div class="calculadora">
-        <div class="calculadora-container">
+    <main class="container">
+      <div class="calculadora-container">
+        <div class="calculadora">
           <div class="calculadora-display">
             <input class="display" type="text" />
+            <div class="pokemon-resultado">
+              <div class="pokemon-img-container">
+                <img class="pokemon-img" />
+              </div>
+              <div>
+                <h2>Pokédex</h2>
+                <p class="pokemon-numero"></p>
+              </div>
+            </div>
           </div>
           <div class="container-calculadora-dpad-buttons">
             <div class="calculadora-operacoes-dpad">
-              <button class="btn-subtracao btn-operador-dpad btn-display">-</button>
-              <button class="btn-multiplicacao btn-operador-dpad btn-display">*</button>
+              <button class="btn-subtracao btn-operador-dpad btn-display">
+                -
+              </button>
+              <button class="btn-multiplicacao btn-operador-dpad btn-display">
+                *
+              </button>
               <button class="btn-soma btn-operador-dpad btn-display">+</button>
-              <button class="btn-divisão btn-operador-dpad btn-display">/</button>
+              <button class="btn-divisão btn-operador-dpad btn-display">
+                /
+              </button>
             </div>
             <div class="calculadora-operacoes-buttons">
               <button class="btn-zerar btn-operador-buttons">C</button>
-              <button class="btn-abrir-parenteses btn-operador-buttons btn-display azul">(</button>
-              <button class="btn-fechar-parenteses btn-operador-buttons btn-display">)</button>
+              <button
+                class="btn-abrir-parenteses btn-operador-buttons btn-display azul"
+              >
+                (
+              </button>
+              <button
+                class="btn-fechar-parenteses btn-operador-buttons btn-display"
+              >
+                )
+              </button>
               <button class="btn-resultado btn-operador-buttons azul">=</button>
               <button class="btn-apagar btn-operador-buttons"><<</button>
-              <button class="btn-ponto btn-operador-buttons btn-display azul">.</button>
+              <button class="btn-ponto btn-operador-buttons btn-display azul">
+                .
+              </button>
             </div>
           </div>
           <div class="calculadora-numeros">
@@ -50,6 +75,6 @@
           </div>
         </div>
       </div>
-    </section>
+    </main>
   </body>
 </html>

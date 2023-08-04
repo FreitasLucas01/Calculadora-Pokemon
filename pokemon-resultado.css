@@ -1,0 +1,77 @@
+.pokemon-img-container {
+  display: flex;
+  justify-content: end;
+}
+
+img {
+  width: 120%;
+}
+
+.pokemon-resultado h2,
+.pokemon-resultado p {
+  margin: 0;
+  padding: 0;
+}
+.pokemon-resultado h2 {
+  margin-bottom: 10px;
+}
+.pokemon-resultado p {
+  font-size: 1.1rem;
+}
+
+.pokemon-resultado {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-family: "Neo Sans Pro", sans-serif;
+  color: #7577c1;
+  background-color: transparent;
+  position: absolute;
+  top: 280px;
+  left: 122px;
+  display: none;
+}
+
+.pokemon-resultado.ativo {
+  display: flex;
+}
+
+@media (max-width: 830px) {
+  img {
+    width: 70%;
+  }
+
+  .pokemon-resultado h2 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  .pokemon-resultado p {
+    font-size: 0.9rem;
+  }
+
+  .pokemon-resultado {
+    gap: 10px;
+    top: 165px;
+    left: 37px;
+  }
+}
+
+@media (max-width: 510px) {
+  img {
+    width: 40%;
+  }
+
+  .pokemon-resultado h2 {
+    font-size: .6rem;
+    margin-bottom: 3px;
+  }
+  .pokemon-resultado p {
+    font-size: .5rem;
+  }
+
+  .pokemon-resultado {
+    gap: 10px;
+    top: 100px;
+    left: -15px;
+  }
+}
