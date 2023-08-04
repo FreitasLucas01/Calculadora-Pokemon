@@ -340,6 +340,8 @@ button {
 
   .calculadora-operacoes-buttons {
     max-width: 112px;
+    /* Abaixo */
+    max-width: 120px;
   }
 
   .btn-zerar {
