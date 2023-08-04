@@ -324,11 +324,15 @@ button {
   .btn-multiplicacao {
     top: 49px;
     left: 13px;
+    /* Abaixo */
+    left: 8px;
   }
 
   .btn-divisão {
     top: 49px;
     right: 17px;
+    /* Abaixo */
+    right: 14px;
   }
 
   .container-calculadora-dpad-buttons {
