@@ -3,7 +3,7 @@ const pokemon = document.querySelector(".pokemon-resultado");
 const pokemonImg = document.querySelector(".pokemon-img");
 const pokemonNumero = document.querySelector(".pokemon-numero");
 
-function handleButtons(e) {
+function pokemonDisplay(e) {
   const el = e.target;
   el.classList.contains("btn-display") ? addNumDisplay(el) : false;
   el.classList.contains("btn-zerar") ? clear() : false;
@@ -18,12 +18,13 @@ async function pokemonNome(conta) {
     );
     const pokeAPI = await pokeFetch.json();
     const pokemonName = pokeAPI.forms[0].name;
+    const pokeImagem = pokeAPI.sprites.front_default;
 
     const capitalize = (s) =>
       typeof s !== "string" ? "" : s.charAt(0).toUpperCase() + s.slice(1);
 
     pokemon.classList.add("ativo");
-    pokemonImg.src = pokeAPI.sprites.front_default;
+    pokemonImg.src = pokeImagem;
     pokemonNumero.innerText = `Nº ${conta} - ${capitalize(pokemonName)}`;
   } else {
     return false;
@@ -53,9 +54,11 @@ const realizaConta = () => {
   try {
     const conta = eval(display.value);
 
-    if (!conta) {
-      alert("Conta inválida");
+    if (conta === 0) {
+      display.value = conta;
       return;
+    } else if (!conta) {
+      alert("Conta inválida");
     } else {
       display.value = conta;
       pokemonNome(conta);
@@ -66,9 +69,9 @@ const realizaConta = () => {
   }
 };
 
-document.addEventListener("click", handleButtons);
+document.addEventListener("click", pokemonDisplay);
 
 if (window.matchMedia("(max-width: 510px)").matches) {
-  document.removeEventListener("click", handleButtons);
-  document.addEventListener("touchstart", handleButtons);
+  document.removeEventListener("click", pokemonDisplay);
+  document.addEventListener("touchstart", pokemonDisplay);
 }
