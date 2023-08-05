@@ -322,8 +322,6 @@ button {
   }
 
   .btn-operador-buttons {
-    padding: 0;
-    margin: 0;
     width: 34px;
     height: 35px;
     background: url("img/botao-rosa-mobile.svg") center no-repeat;
