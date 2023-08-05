@@ -23,9 +23,14 @@ async function pokemonNome(conta) {
     const capitalize = (s) =>
       typeof s !== "string" ? "" : s.charAt(0).toUpperCase() + s.slice(1);
 
-    pokemon.classList.add("ativo");
     pokemonImg.src = pokeImagem;
     pokemonNumero.innerText = `Nº ${conta} - ${capitalize(pokemonName)}`;
+
+    function teste() {
+      pokemon.classList.add("ativo");
+    }
+
+    setTimeout(teste, 700)
   } else {
     return false;
   }
