@@ -334,10 +334,10 @@ button {
 
   .calculadora-numeros {
     max-width: 111px;
-    margin-right: 12px;
+    /* margin-right: 12px;
     margin-bottom: 2px;
     padding-left: 0px;
-    gap: 10px 5px;
+    gap: 10px 5px; */
     /* Abaixo */
     position: absolute;
     right: -19px;
