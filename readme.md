@@ -1,7 +1,7 @@
 <br>
 <p align="center"><img align="center" src="img/pokemon-128.png"> </p> <br>
 
-<h1 align="center"> Calculadoras Pokémon </h1>
+<h1 align="center"> Calculadora Pokémon </h1>
 
 <p align="center">
     <a href="#demo"> Demonstração</a> •
