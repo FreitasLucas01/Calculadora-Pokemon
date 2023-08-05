@@ -67,3 +67,8 @@ const realizaConta = () => {
 };
 
 document.addEventListener("click", handleButtons);
+
+if (window.matchMedia("(max-width: 510px)").matches) {
+  document.removeEventListener("click", handleButtons);
+  document.addEventListener("touchstart", handleButtons);
+}
