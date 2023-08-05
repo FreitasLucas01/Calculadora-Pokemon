@@ -28,7 +28,7 @@
 - [x] Temática de Pokémon <br>
 - [x] Requisição com PokéAPI<br>
 - [x] Resultado do cálculo mostra o Pokémon respectivo<br>
-- [x] Imagens e nomes de Pokémon <br>
+- [x] Imagens e nomes de Pokémon <br><br>
 
 <h2 id="tec"> 🚀 Tecnologias </h2>
 
