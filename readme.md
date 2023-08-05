@@ -8,7 +8,6 @@
     <a href="#func"> Funcionalidade</a> •
     <a href="#tec"> Tecnologias</a> •
     <a href="#projeto"> Projeto</a> •
-    <a href="#construção"> Em construção</a>
     <br> <br>
 
 <h2 id="demo"> 📷 Demonstração </h2>
