@@ -30,7 +30,7 @@ async function pokemonNome(conta) {
       pokemon.classList.add("ativo");
     }
 
-    setTimeout(teste, 700)
+    setTimeout(teste, 480);
   } else {
     return false;
   }
