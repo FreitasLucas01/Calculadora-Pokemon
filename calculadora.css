@@ -349,9 +349,9 @@ button {
   .btn-numeros.azul {
     background: url("img/botao-azul-mobile.svg") center no-repeat;
   }
-
+/* 
   .btn-operador-buttons{
     padding: 0;
     margin: 0;
-  }
+  } */
 }
