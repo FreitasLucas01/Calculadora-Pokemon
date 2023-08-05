@@ -4,12 +4,14 @@ const pokemonImg = document.querySelector(".pokemon-img");
 const pokemonNumero = document.querySelector(".pokemon-numero");
 
 function handleButtons(e) {
-  if (e.type === "touchstart") e.preventDefault();
-  const el = e.target;
-  el.classList.contains("btn-display") ? addNumDisplay(el) : false;
-  el.classList.contains("btn-zerar") ? clear() : false;
-  el.classList.contains("btn-apagar") ? del() : false;
-  el.classList.contains("btn-resultado") ? realizaConta() : false;
+  if (e.type === "touchstart") {
+    e.preventDefault();
+    const el = e.target;
+    el.classList.contains("btn-display") ? addNumDisplay(el) : false;
+    el.classList.contains("btn-zerar") ? clear() : false;
+    el.classList.contains("btn-apagar") ? del() : false;
+    el.classList.contains("btn-resultado") ? realizaConta() : false;
+  }
 }
 
 async function pokemonNome(conta) {
