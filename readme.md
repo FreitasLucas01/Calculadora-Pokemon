@@ -25,12 +25,11 @@
 <h2 id="func"> ⚙ Funcionalidades </h2>
 
 - [x] Página totalmente responsiva <br>
-- [x] Menu Hambúrguer</br>
-- [x] Simulador de vendas como pessoas física e jurídica <br>
-- [x] Slider carousel <br>
-- [x] Cores correspondentes ao produto<br>
-- [x] Projeto focado em design UX/UI <br>
-- [x] Acessibilidade<br><br>
+- [x] Calculadora funcional</br>
+- [x] Temática de Pokémon <br>
+- [x] Requisição com PokéAPI<br>
+- [x] Resultado do cálculo mostra o Pokémon respectivo<br>
+- [x] Imagens e nomes de Pokémon <br>
 
 <h2 id="tec"> 🚀 Tecnologias </h2>
 
@@ -40,15 +39,9 @@
 ✔️CSS<br><br>
 ✔️JavaScript<br><br>
 
-<h2 id="construção"> 🚧 "Nossas taxas para receber" está em construção 🚧</h2>
-
-<h2 align="center"> <img alt="Readme" title="Readme" src=./gif/4.gif> </h2><br><br>
-
 <h2 id="projeto"> 💻 Projeto </h2>
 
-<p>Projeto foi desenvolvido em parceria com uma designer. Resultado final e alterações foram aprovados pela designer que produziu layout.
-
-Projeto no Figma: https://www.figma.com/file/mTayCzjijV8HGGSjkiewER/SafraPay---Redesign-(Behance)?node-id=173%3A1508</p>
+<p>Projeto desenvolvido para treinar Javascript e requições API.</p>
 
 <hr>
 <br>
