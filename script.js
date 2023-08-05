@@ -26,11 +26,11 @@ async function pokemonNome(conta) {
     pokemonImg.src = pokeImagem;
     pokemonNumero.innerText = `Nº ${conta} - ${capitalize(pokemonName)}`;
 
-    function teste() {
+    function addClass() {
       pokemon.classList.add("ativo");
     }
 
-    setTimeout(teste, 480);
+    setTimeout(addClass, 480);
   } else {
     return false;
   }

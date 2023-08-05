@@ -1,3 +1,7 @@
+.teste{
+  display: flex;
+}
+
 .pokemon-img-container {
   display: flex;
   justify-content: end;
