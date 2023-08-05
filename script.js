@@ -3,12 +3,8 @@ const pokemon = document.querySelector(".pokemon-resultado");
 const pokemonImg = document.querySelector(".pokemon-img");
 const pokemonNumero = document.querySelector(".pokemon-numero");
 
-const eventos = ["click", "touchstart"]
-
 const capturarCliques = () => {
-  document.addEventListener(eventos, (e) => {
-    if(e.type === "touchstart")
-      e.preventDefault()
+  document.addEventListener("click", (e) => {
     const el = e.target;
     el.classList.contains("btn-display") ? addNumDisplay(el) : false;
     el.classList.contains("btn-zerar") ? clear() : false;
