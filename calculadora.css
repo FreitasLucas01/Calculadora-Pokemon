@@ -79,7 +79,7 @@ button {
 .btn-multiplicacao {
   top: 64px;
   left: 10px;
-  color: transparent;
+  /* color: transparent; */
   padding: 0 10px;
 }
 .btn-multiplicacao::before {
@@ -93,7 +93,7 @@ button {
 .btn-divisão {
   top: 63px;
   right: 19px;
-  color: transparent;
+  /* color: transparent; */
   padding: 0 10px;
 }
 .btn-divisão::before {
