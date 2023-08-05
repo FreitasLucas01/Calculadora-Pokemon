@@ -1,5 +1,5 @@
 <br>
-<p align="center"><img align="center" src="img/pokemon-64.png"> </p> <br>
+<p align="center"><img align="center" src="img/pokemon-128.png"> </p> <br>
 
 <h1 align="center"> Calculadoras Pokémon </h1>
 
