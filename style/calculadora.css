@@ -287,18 +287,24 @@ button {
   }
 
   .btn-subtracao {
-    bottom: 30px;
-    left: 32px;
+    /* bottom: 30px;
+    left: 32px; */
+    bottom: 26%;
+    left: 37%;
   }
 
   .btn-multiplicacao {
-    top: 47px;
-    left: 10px;
+    /* top: 47px;
+    left: 10px; */
+    top: 41%;
+    left: 7%;
   }
 
   .btn-divisão {
-    top: 47px;
-    right: 15px;
+    /* top: 47px;
+    right: 15px; */
+    top: 41%;
+    right: 14%;
   }
 
   .container-calculadora-dpad-buttons {
