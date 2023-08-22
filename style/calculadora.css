@@ -357,3 +357,8 @@ button {
   }
 }
 
+@media(max-width: 295px){
+  body{
+    display: none;
+  }
+}
