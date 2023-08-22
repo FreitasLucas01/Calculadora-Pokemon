@@ -280,8 +280,10 @@ button {
   }
 
   .btn-soma {
-    top: 25px;
-    left: 31px;
+    /* top: 25px;
+    left: 31px; */
+    top: 22%;
+    left: 35%;
   }
 
   .btn-subtracao {
@@ -348,3 +350,4 @@ button {
     background: url("../img/botao-azul-mobile.svg") center no-repeat;
   }
 }
+
