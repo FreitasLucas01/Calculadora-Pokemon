@@ -1,5 +1,6 @@
 body,
-input {
+input,
+button {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -68,13 +69,13 @@ button {
 }
 
 .btn-soma {
-  left: 66px;
   top: 7px;
+  left: 72px;
 }
 
 .btn-subtracao {
-  left: 70px;
   bottom: 16px;
+  left: 76px;
 }
 
 .btn-multiplicacao {
@@ -197,11 +198,11 @@ button {
   }
 
   .btn-soma {
-    left: 41px;
+    left: 47px;
   }
 
   .btn-subtracao {
-    left: 43px;
+    left: 50px;
   }
 
   .btn-multiplicacao {
@@ -280,31 +281,23 @@ button {
   }
 
   .btn-soma {
-    /* top: 25px;
-    left: 31px; */
     top: 22%;
-    left: 35%;
+    left: 41%;
   }
 
   .btn-subtracao {
-    /* bottom: 30px;
-    left: 32px; */
     bottom: 26%;
-    left: 37%;
+    left: 43%;
   }
 
   .btn-multiplicacao {
-    /* top: 47px;
-    left: 10px; */
     top: 41%;
-    left: 7%;
+    left: 10%;
   }
 
   .btn-divisão {
-    /* top: 47px;
-    right: 15px; */
     top: 41%;
-    right: 14%;
+    right: 18%;
   }
 
   .container-calculadora-dpad-buttons {
@@ -354,11 +347,5 @@ button {
 
   .btn-numeros.azul {
     background: url("../img/botao-azul-mobile.svg") center no-repeat;
-  }
-}
-
-@media(max-width: 295px){
-  body{
-    display: none;
   }
 }
