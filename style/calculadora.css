@@ -280,22 +280,22 @@ button {
 
   .btn-soma {
     top: 25px;
-    left: 30px;
+    left: 25px;
   }
 
   .btn-subtracao {
     bottom: 30px;
-    left: 32px;
+    left: 28px;
   }
 
   .btn-multiplicacao {
     top: 47px;
-    left: 6px;
+    left: 10px;
   }
 
   .btn-divisão {
     top: 47px;
-    right: 12px;
+    right: 18px;
   }
 
   .container-calculadora-dpad-buttons {

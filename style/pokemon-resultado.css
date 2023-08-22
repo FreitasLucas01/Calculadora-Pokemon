@@ -44,6 +44,10 @@ img {
     width: 70%;
   }
 
+  .pokemon-resultado {
+    max-width: 270px;
+  }
+
   .pokemon-resultado h2 {
     font-size: 1rem;
     margin-bottom: 5px;
@@ -60,15 +64,9 @@ img {
   }
 }
 
-@media (max-width: 830px){
-  .pokemon-resultado {
-    max-width: 270px;
-  }
-}
-
 @media (max-width: 510px) {
   .pokemon-resultado {
-    max-width: 200px;
+    max-width: 190px;
     gap: 10px;
     top: 100px;
     left: -15px;
