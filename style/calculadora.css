@@ -24,14 +24,14 @@ button {
   justify-content: center;
   width: 100%;
   height: 100vh;
-  background: url("img/pokemon-fundo.svg") center no-repeat;
+  background: url("../img/pokemon-fundo.svg") center no-repeat;
   background-size: cover;
 }
 
 .calculadora-container {
   width: 820px;
   height: 835px;
-  background: url("img/calculadora.svg") center no-repeat;
+  background: url("../img/calculadora.svg") center no-repeat;
 }
 
 .calculadora {
@@ -58,7 +58,7 @@ button {
   position: relative;
   width: 180px;
   height: 176px;
-  background: url("img/dpad.svg") center no-repeat;
+  background: url("../img/dpad.svg") center no-repeat;
   background-size: cover;
 }
 
@@ -128,10 +128,10 @@ button {
   width: 75px;
   height: 78px;
   border-radius: 50px;
-  background: url("img/botao-rosa.svg") center no-repeat;
+  background: url("../img/botao-rosa.svg") center no-repeat;
 }
 .btn-operador-buttons.azul {
-  background: url("img/botao-azul.svg") center no-repeat;
+  background: url("../img/botao-azul.svg") center no-repeat;
 }
 
 .btn-apagar {
@@ -158,13 +158,13 @@ button {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background: url("img/botao-rosa.svg") center no-repeat;
+  background: url("../img/botao-rosa.svg") center no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .btn-numeros.azul {
-  background: url("img/botao-azul.svg") center no-repeat;
+  background: url("../img/botao-azul.svg") center no-repeat;
 }
 
 @media (max-width: 830px) {
@@ -182,13 +182,13 @@ button {
   .calculadora-container {
     width: 500px;
     height: 509px;
-    background: url("img/calculadora-tablet.svg") center no-repeat;
+    background: url("../img/calculadora-tablet.svg") center no-repeat;
   }
 
   .calculadora-operacoes-dpad {
     width: 117px;
     height: 114px;
-    background: url("img/dpad-tablet.svg") center no-repeat;
+    background: url("../img/dpad-tablet.svg") center no-repeat;
   }
 
   .btn-soma {
@@ -224,10 +224,10 @@ button {
   .btn-operador-buttons {
     width: 50px;
     height: 51px;
-    background: url("img/botao-rosa-tablet.svg") center no-repeat;
+    background: url("../img/botao-rosa-tablet.svg") center no-repeat;
   }
   .btn-operador-buttons.azul {
-    background: url("img/botao-azul-tablet.svg") center no-repeat;
+    background: url("../img/botao-azul-tablet.svg") center no-repeat;
   }
 
   .calculadora-numeros {
@@ -241,10 +241,10 @@ button {
   .btn-numeros {
     width: 50px;
     height: 51px;
-    background: url("img/botao-rosa-tablet.svg") center no-repeat;
+    background: url("../img/botao-rosa-tablet.svg") center no-repeat;
   }
   .btn-numeros.azul {
-    background: url("img/botao-azul-tablet.svg") center no-repeat;
+    background: url("../img/botao-azul-tablet.svg") center no-repeat;
   }
 }
 
@@ -263,13 +263,13 @@ button {
   .calculadora-container {
     width: 300px;
     height: 306px;
-    background: url("img/calculadora-mobile.svg") center no-repeat;
+    background: url("../img/calculadora-mobile.svg") center no-repeat;
   }
 
   .calculadora-operacoes-dpad {
     width: 117px;
     height: 114px;
-    background: url("img/dpad-mobile.svg") center no-repeat;
+    background: url("../img/dpad-mobile.svg") center no-repeat;
   }
 
   .btn-soma {
@@ -326,10 +326,10 @@ button {
     margin: 0;
     width: 34px;
     height: 35px;
-    background: url("img/botao-rosa-mobile.svg") center no-repeat;
+    background: url("../img/botao-rosa-mobile.svg") center no-repeat;
   }
   .btn-operador-buttons.azul {
-    background: url("img/botao-azul-mobile.svg") center no-repeat;
+    background: url("../img/botao-azul-mobile.svg") center no-repeat;
   }
 
   .calculadora-numeros {
@@ -346,9 +346,9 @@ button {
   .btn-numeros {
     width: 34px;
     height: 35px;
-    background: url("img/botao-rosa-mobile.svg") center no-repeat;
+    background: url("../img/botao-rosa-mobile.svg") center no-repeat;
   }
   .btn-numeros.azul {
-    background: url("img/botao-azul-mobile.svg") center no-repeat;
+    background: url("../img/botao-azul-mobile.svg") center no-repeat;
   }
 }
