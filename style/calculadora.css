@@ -2,7 +2,7 @@ body,
 input {
   margin: 0;
   padding: 0;
-  font-family: "Neo Sans Pro", sans-serif;
+  font-family: sans-serif;
 }
 
 input:focus {
@@ -10,7 +10,7 @@ input:focus {
 }
 
 button {
-  font: 700 2.5rem/1.1 "Neo Sans Pro", sans-serif;
+  font: 700 2.5rem/1.1 'Inter', sans-serif;
   background: transparent;
   color: #2d2727;
   border: none;
@@ -47,7 +47,7 @@ button {
   width: 365px;
   text-align: right;
   border: none;
-  font: 700 2rem/1 "Neo Sans Pro", sans-serif;
+  font: 700 2rem/1 'Inter', sans-serif;
   background: #f4efef;
   cursor: default;
   color: transparent;
@@ -72,16 +72,17 @@ button {
 }
 
 .btn-subtracao {
-  left: 73px;
+  left: 70px;
   bottom: 16px;
 }
 
 .btn-multiplicacao {
-  top: 64px;
+  top: 62px;
   left: 10px;
   color: transparent;
   padding: 0 10px;
 }
+
 .btn-multiplicacao::before {
   position: absolute;
   content: "×";
@@ -96,6 +97,7 @@ button {
   color: transparent;
   padding: 0 10px;
 }
+
 .btn-divisão::before {
   position: absolute;
   content: "÷";
@@ -130,6 +132,7 @@ button {
   border-radius: 50px;
   background: url("../img/botao-rosa.svg") center no-repeat;
 }
+
 .btn-operador-buttons.azul {
   background: url("../img/botao-azul.svg") center no-repeat;
 }
@@ -163,20 +166,21 @@ button {
   justify-content: center;
   align-items: center;
 }
+
 .btn-numeros.azul {
   background: url("../img/botao-azul.svg") center no-repeat;
 }
 
 @media (max-width: 830px) {
   button {
-    font: 700 1.5rem/1 "Neo Sans Pro", sans-serif;
+    font: 700 1.5rem/1 'Inter', sans-serif;
   }
 
   .display {
     top: 136px;
     left: 64px;
     width: 217px;
-    font: 700 1.5rem/1 "Neo Sans Pro", sans-serif;
+    font: 700 1.5rem/1 'Inter', sans-serif;
   }
 
   .calculadora-container {
@@ -192,15 +196,15 @@ button {
   }
 
   .btn-soma {
-    left: 42px;
+    left: 41px;
   }
 
   .btn-subtracao {
-    left: 46px;
+    left: 43px;
   }
 
   .btn-multiplicacao {
-    top: 44px;
+    top: 43px;
     left: 5px;
   }
 
@@ -226,6 +230,7 @@ button {
     height: 51px;
     background: url("../img/botao-rosa-tablet.svg") center no-repeat;
   }
+
   .btn-operador-buttons.azul {
     background: url("../img/botao-azul-tablet.svg") center no-repeat;
   }
@@ -243,6 +248,7 @@ button {
     height: 51px;
     background: url("../img/botao-rosa-tablet.svg") center no-repeat;
   }
+
   .btn-numeros.azul {
     background: url("../img/botao-azul-tablet.svg") center no-repeat;
   }
@@ -250,14 +256,14 @@ button {
 
 @media (max-width: 510px) {
   button {
-    font: 700 1rem/1 "Neo Sans Pro", sans-serif;
+    font: 700 1rem/1 'Inter', sans-serif;
   }
 
   .display {
     top: 85px;
     left: 40px;
     width: 128px;
-    font: 700 1rem/1 "Neo Sans Pro", sans-serif;
+    font: 700 1rem/1 'Inter', sans-serif;
   }
 
   .calculadora-container {
@@ -273,47 +279,35 @@ button {
   }
 
   .btn-soma {
-    top: 27px;
-    left: 36px;
-    /* Abaixo */
-    left: 32px;
+    top: 25px;
+    left: 30px;
   }
 
   .btn-subtracao {
     bottom: 30px;
-    left: 38px;
-    /* Abaixo */
-    left: 33px;
+    left: 32px;
   }
 
   .btn-multiplicacao {
-    top: 49px;
-    left: 13px;
-    /* Abaixo */
-    left: 8px;
+    top: 47px;
+    left: 6px;
   }
 
   .btn-divisão {
-    top: 49px;
-    right: 17px;
-    /* Abaixo */
+    top: 47px;
     right: 12px;
   }
 
   .container-calculadora-dpad-buttons {
-    width: 100%;
+    width: 68%;
     height: 57%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     align-self: end;
-    /* Abaixo */
-    width: 68%;
   }
 
   .calculadora-operacoes-buttons {
-    max-width: 112px;
-    /* Abaixo */
     max-width: 117px;
   }
 
@@ -328,19 +322,19 @@ button {
     height: 35px;
     background: url("../img/botao-rosa-mobile.svg") center no-repeat;
   }
+
   .btn-operador-buttons.azul {
     background: url("../img/botao-azul-mobile.svg") center no-repeat;
   }
 
   .calculadora-numeros {
+    position: absolute;
+    right: -19px;
     max-width: 111px;
     margin-right: 12px;
     margin-bottom: 2px;
     padding-left: 0px;
     gap: 10px 5px;
-    /* Abaixo */
-    position: absolute;
-    right: -19px;
   }
 
   .btn-numeros {
@@ -348,6 +342,7 @@ button {
     height: 35px;
     background: url("../img/botao-rosa-mobile.svg") center no-repeat;
   }
+
   .btn-numeros.azul {
     background: url("../img/botao-azul-mobile.svg") center no-repeat;
   }
