@@ -3,6 +3,7 @@ input {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  overflow: hidden;
 }
 
 input:focus {
@@ -280,22 +281,22 @@ button {
 
   .btn-soma {
     top: 25px;
-    left: 28px;
+    left: 30px;
   }
 
   .btn-subtracao {
     bottom: 30px;
-    left: 30px;
+    left: 32px;
   }
 
   .btn-multiplicacao {
     top: 47px;
-    left: 13px;
+    left: 7px;
   }
 
   .btn-divisão {
     top: 47px;
-    right: 21px;
+    right: 12px;
   }
 
   .container-calculadora-dpad-buttons {
