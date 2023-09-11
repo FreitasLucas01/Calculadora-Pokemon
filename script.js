@@ -16,6 +16,7 @@ async function pokemonNome(conta) {
     const pokeFetch = await fetch(
       `https://pokeapi.co/api/v2/pokemon/${conta}/`
     );
+
     const pokeAPI = await pokeFetch.json();
     const pokemonName = pokeAPI.forms[0].name;
     const pokeImagem = pokeAPI.sprites.front_default;
@@ -30,7 +31,7 @@ async function pokemonNome(conta) {
       pokemon.classList.add("ativo");
     }
 
-    setTimeout(addClass, 800);
+    setTimeout(addClass, 1000);
   } else {
     return false;
   }
