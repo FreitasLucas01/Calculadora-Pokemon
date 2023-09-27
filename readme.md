@@ -12,7 +12,7 @@
 
 <h2 id="demo"> 📷 Demonstração </h2>
 
-<h2 align="center"> <img alt="Readme" title="Readme" src="img/1.gif"> </h2>
+<h2 align="center"> <img alt="Readme" title="Readme" src="/img/1.gif"> </h2>
 
 <br>
 <p align="center">
