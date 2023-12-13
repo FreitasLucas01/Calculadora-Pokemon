@@ -173,7 +173,7 @@ button {
   background: url("../img/botao-azul.svg") center no-repeat;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 850px), (max-height: 800px){
   button {
     font: 700 1.5rem/1 'Inter', sans-serif;
   }
@@ -256,7 +256,7 @@ button {
   }
 }
 
-@media (max-width: 510px) {
+@media (max-width: 510px), (max-height: 600px) {
   button {
     font: 700 1rem/1 'Inter', sans-serif;
   }
