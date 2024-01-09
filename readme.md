@@ -43,6 +43,7 @@
 
 <h2 id="projeto"> 💻 Projeto </h2>
 
+<p>Para o Pokémon aparecer, faça cálculos com números inteiros com valor máximo de até 1000.</p>
 <p>Projeto desenvolvido para treinar Javascript e requições API.</p>
 
 <hr>
